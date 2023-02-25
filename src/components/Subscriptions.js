@@ -15,7 +15,7 @@ function Subscriptions() {
   return (
     <div className='subbed-channels'>
       {subbedArray !== []? (subbedArray.map( item => (
-    <SubbedChannel key={item.id.channelId} channelDetail={item}/>
+    <SubbedChannel key={item?.id?.channelId} channelDetail={item}/>
    ))):(<p style={{color:'white'}}>No Subscriptions to show</p>)}
     </div>
 

@@ -359,6 +359,17 @@ a {
   
 }
 
+.home-btn{
+  position: fixed;
+  bottom: 2rem; 
+  right: 2.75rem; 
+  filter: grayscale(100%); 
+}
+
+.home-btn:hover{
+  filter: grayscale(0%)
+}
+
 @media screen and (max-width: 900px) {
 
   .sidebar{
@@ -439,6 +450,11 @@ a {
     border: 2px solid white;
     width: 40vw;
     padding: 0 5px;
+  }
+  .home-btn{
+    right: 1.25rem; 
+  bottom: 4rem; 
+  filter: grayscale(0%); 
   }
 
 }
